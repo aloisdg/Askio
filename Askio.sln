@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Askio", "Askio\Askio.csproj", "{BF1BA3DC-45DB-4A4F-A99A-069A0BA0F814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Askio.Droid", "Droid\Askio.Droid.csproj", "{2FE1F70A-B252-4F80-B6B2-1A9D2E140FAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE1F70A-B252-4F80-B6B2-1A9D2E140FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE1F70A-B252-4F80-B6B2-1A9D2E140FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE1F70A-B252-4F80-B6B2-1A9D2E140FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE1F70A-B252-4F80-B6B2-1A9D2E140FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1BA3DC-45DB-4A4F-A99A-069A0BA0F814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1BA3DC-45DB-4A4F-A99A-069A0BA0F814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1BA3DC-45DB-4A4F-A99A-069A0BA0F814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1BA3DC-45DB-4A4F-A99A-069A0BA0F814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
