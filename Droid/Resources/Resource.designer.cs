@@ -79,10 +79,7 @@ namespace Askio.Droid
 			public const int settings = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int splash_screen = 2130837510;
-			
-			// aapt resource value: 0x7f020007
-			public const int SplashScreen = 2130837511;
+			public const int SplashScreen = 2130837510;
 			
 			static Drawable()
 			{

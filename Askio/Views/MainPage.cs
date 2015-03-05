@@ -65,6 +65,7 @@ namespace Askio
 
 			this.listView.ItemTapped += (sender, e) => {
 				this.Navigation.PushAsync(new ChatPage());
+				this.listView.SelectedItem = null;
 			};
 		}
 	}

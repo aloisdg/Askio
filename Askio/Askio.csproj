@@ -55,5 +55,6 @@
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\" />
+    <Folder Include="Network\" />
   </ItemGroup>
 </Project>

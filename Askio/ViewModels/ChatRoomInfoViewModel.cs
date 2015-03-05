@@ -14,13 +14,11 @@ namespace Askio
 		{
 			this.ChatRoomInformations = new ObservableCollection<ChatRoomInfo> ();
 
-			for (Int32 i = 0; i < 20; i++) {
-				this.ChatRoomInformations.Add (new ChatRoomInfo () {
-					Name = "What's up?",
-					CreatorName = "Filipe",
-					Image = "@drawable/add"
-				});
-			}
+			this.ChatRoomInformations.Add (new ChatRoomInfo () {
+				Name = "What's up?",
+				CreatorName = "Filipe",
+				Image = null
+			});
 		}
 
 		/// <summary>
