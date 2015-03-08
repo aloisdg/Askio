@@ -64,11 +64,9 @@ namespace Askio
 			// List events
 
 			this.listView.ItemTapped += (sender, e) => {
-				this.Navigation.PushAsync(new ChatPage());
+				this.Navigation.PushAsync(new ChatPage(e.Item.ToString()));
 				this.listView.SelectedItem = null;
 			};
 		}
 	}
-
-	public class AspectImageCell : ImageCell { }
 }

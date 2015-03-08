@@ -1,10 +1,15 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace Askio
 {
+	/// <summary>
+	/// Header cell.
+	/// </summary>
 	public class HeaderCell : ViewCell
 	{
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Askio.HeaderCell"/> class.
+		/// </summary>
 		public HeaderCell()
 		{
 			this.Height = 25;

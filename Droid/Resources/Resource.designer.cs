@@ -44,8 +44,8 @@ namespace Askio.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int askio_background = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int askio_background = 2130968576;
 			
 			static Color()
 			{
@@ -64,22 +64,31 @@ namespace Askio.Droid
 			public const int add = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int icon = 2130837505;
+			public const int bubble_green = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int logo = 2130837506;
+			public const int bubble_yellow = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int refresh = 2130837507;
+			public const int help = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int send = 2130837508;
+			public const int icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int settings = 2130837509;
+			public const int logo = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int SplashScreen = 2130837510;
+			public const int refresh = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int send = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int settings = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int SplashScreen = 2130837513;
 			
 			static Drawable()
 			{
@@ -91,11 +100,55 @@ namespace Askio.Droid
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f060003
+			public const int message = 2131099651;
+			
+			// aapt resource value: 0x7f060002
+			public const int nick = 2131099650;
+			
+			// aapt resource value: 0x7f060001
+			public const int nicknameAndTimeWrapper = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int wrapper = 2131099648;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int MessageItemOpponent = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int MessageItemOwner = 2130903041;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int Theme_Splash = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Theme_Splash = 2131034112;
 			
 			static Style()
 			{

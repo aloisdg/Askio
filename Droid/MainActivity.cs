@@ -9,6 +9,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Graphics;
 using System.Threading;
+using Android.Net.Wifi.P2p;
 
 namespace Askio.Droid
 {

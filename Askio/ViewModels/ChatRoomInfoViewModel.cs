@@ -17,7 +17,7 @@ namespace Askio
 			this.ChatRoomInformations.Add (new ChatRoomInfo () {
 				Name = "What's up?",
 				CreatorName = "Filipe",
-				Image = null
+				Image = "@drawable/help"
 			});
 		}
 

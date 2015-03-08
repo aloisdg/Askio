@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Droid\Askio.Droid.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4100ad88e488a191" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\Renderer\MessageRenderer.cs">
     <Files>
-      <File FileName="Askio\Askio.cs" Line="26" Column="26" />
-      <File FileName="Askio\Pages\MainPage.cs" Line="4" Column="4" />
-      <File FileName="Askio\Pages\ChatPage.cs" Line="1" Column="1" />
-      <File FileName="Droid\Resources\values\Styles.xml" Line="65" Column="65" />
-      <File FileName="Droid\MainActivity.cs" Line="24" Column="24" />
-      <File FileName="Droid\Resources\drawable\SplashScreen.xml" Line="3" Column="3" />
+      <File FileName="Askio\Views\ChatPage.cs" Line="46" Column="46" />
+      <File FileName="Droid\Resources\drawable\splashscreen.xml" Line="1" Column="1" />
+      <File FileName="Askio\ViewModels\ChatPageViewModel.cs" Line="18" Column="18" />
+      <File FileName="Askio\ViewModels\ChatRoomInfoViewModel.cs" Line="3" Column="3" />
+      <File FileName="Askio\Models\TextMessage.cs" Line="3" Column="3" />
+      <File FileName="Droid\Renderer\MessageRenderer.cs" Line="148" Column="148" />
+      <File FileName="Askio\ViewModels\TextMessageViewModel.cs" Line="3" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
